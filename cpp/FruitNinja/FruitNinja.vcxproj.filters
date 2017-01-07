@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Gazepoint">
+      <UniqueIdentifier>{3649c362-3014-4674-84b5-62c6e0165a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{ec54a19a-e501-4942-baa2-35fa381a17ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{1e8f088f-9f51-43d7-9b76-cc6523b217ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\FruitNinja.rc2">
+      <Filter>Misc\Resource Files</Filter>
+    </None>
+    <None Include="res\FruitNinja.ico">
+      <Filter>Misc\Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FruitNinjaDlg.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="FruitNinja.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GPClient.h">
+      <Filter>Gazepoint</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FruitNinjaDlg.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="FruitNinja.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\GPClient.cpp">
+      <Filter>Gazepoint</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FruitNinja.rc">
+      <Filter>Misc\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Other">
+      <UniqueIdentifier>{f2ca37f2-fcdf-4b11-b56e-b13ca9ed40e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{1844a51d-6869-4980-8235-22b9406c8daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gazepoint">
+      <UniqueIdentifier>{0e6c4c30-80e9-4879-827e-0f5a51b49193}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\GPClient.h">
+      <Filter>Gazepoint</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\include\GPClient.cpp">
+      <Filter>Gazepoint</Filter>
+    </ClCompile>
+    <ClCompile Include="apiclient.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
